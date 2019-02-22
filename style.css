@@ -1,0 +1,52 @@
+/*
+This is how you add comment in css...
+Any code inside this won't get executed !!!
+*/
+
+header,
+#heading,
+section,
+footer {
+	padding: 50px;
+}
+
+/* classes start with a '.' */
+.text-center {
+ 	text-align: center;
+}
+
+.text-right {
+ 	text-align: right;
+}
+
+#heading {
+	background-color: yellow;
+}
+
+h2 {
+	color: brown;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+/* ids start with a '#' */
+#about {
+	background-color: #84ffff;
+}
+
+#who {
+	background-color: #f8bbd0;
+}
+
+#contact {
+	background-color: #eeff41; 
+}
+
+.my-border{
+	border: 10px outset grey;
+	padding: 10px;
+}
