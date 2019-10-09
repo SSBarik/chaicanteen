@@ -25,6 +25,19 @@ img {
 	width: 200px;
 	height: 200px;
 	float: right;
+	position: relative;
+    -webkit-animation-name: underdog; 
+    -webkit-animation-duration: 6s; 
+    animation-name: underdog;
+    animation-duration: 7s;
+}
+
+@-webkit-keyframes underdog {
+  0%   {right:0px; top:0px;}
+  25%  {right:0px; top:200px;}
+  50%  {right:850px; top:200px;}
+  75%  {right:850px; top:0px;}
+  100% {right:0px; top:0px;}
 }
 
 #about {
